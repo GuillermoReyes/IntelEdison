@@ -1,0 +1,9 @@
+A cool project using Intel Edison's development board. 
+
+GetTemperature.c uses the mraa library to just get the temperature every couple
+of seconds. 
+
+EdisonClient.c, however, reports the temperature, connects to a server at UCLA, 
+and allows the server to request changes in output(ie, Celsius vs Fahrenheit).
+The server then stops the transmission. Pretty Cool
+
